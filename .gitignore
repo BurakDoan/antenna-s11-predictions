@@ -1,0 +1,23 @@
+# Veri Setleri (Ham Veri ve Excel/CSV Dosyaları)
+data/
+*.xlsx
+*.csv
+
+# Veri Tabanı Dosyaları
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+mlflow.db
+
+# Python Sanal Ortam ve Önbellek Dosyaları
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.DS_Store
+
+# Geçici Klasörler
+.vscode/
+mlruns/
