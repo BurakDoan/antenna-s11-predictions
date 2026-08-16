@@ -15,7 +15,7 @@ st.write("Predict the reflection coefficient ($S_{11}$) directly using Machine L
 # Model Yükleme
 @st.cache_resource
 def load_model():
-    return joblib.load('models/antenna_model.pkl')
+    return joblib.load('models/best_model.pkl')
 
 try:
     model = load_model()
